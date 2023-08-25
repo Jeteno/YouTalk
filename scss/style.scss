@@ -571,7 +571,7 @@ a {
     position: absolute;
     width: 218px;
     height: 606px;
-    background: url('/images/main/content-article/background.svg') no-repeat;
+    background: url('../images/main/content-article/background.svg') no-repeat;
     right: 0;
     @media screen and (max-width: 1025px) {
       display: none;
@@ -662,7 +662,7 @@ a {
 }
 .article__content--paragraph::before{
   content: "";
-  background-image: url('/images/main/content-article/disk.svg');
+  background-image: url('../images/main/content-article/disk.svg');
   width: 24px;
   height: 24px;
   position: absolute;
@@ -714,7 +714,7 @@ a {
   padding-left: 24px;
   &:before{
     content: "";
-    background-image: url('/images/main/content-article/disk.svg');
+    background-image: url('../images/main/content-article/disk.svg');
     width: 24px;
     height: 24px;
     position: absolute;
@@ -732,7 +732,7 @@ a {
   position: relative;
   &::before {
     content: "";
-    background-image: url('/images/main/content-article/quote.svg');
+    background-image: url('../images/main/content-article/quote.svg');
     width: 55.776px;
     height: 36px;
     position: absolute;
@@ -774,7 +774,7 @@ a {
   align-self: stretch;
   display: flex;
   align-items: center;
-  background: url('/images/main/content-article/paper-paragraph.svg') no-repeat center;
+  background: url('../images/main/content-article/paper-paragraph.svg') no-repeat center;
 }
 .article__paper--paragraph--quote-p {
   color: var(--text-primary, #333);
@@ -837,7 +837,7 @@ a {
     height: 32px;
     bottom: -56px;
     left: 36%;
-    background-image: url('/images/main/content-article/gallery-3.svg');
+    background-image: url('../images/main/content-article/gallery-3.svg');
     @media screen and (max-width: 425px) {
       left: 25%;
     }
@@ -876,7 +876,7 @@ a {
       position: absolute;
       width: 4px;
       height: 20px;
-      background: url('/images/main/content-article/marker-navigation.svg') no-repeat;
+      background: url('../images/main/content-article/marker-navigation.svg') no-repeat;
       left: -12px;
       top: 50%;
     }
@@ -902,7 +902,7 @@ a {
     position: absolute;
     width: 73px;
     height: 240px;
-    background: url('/images/main/content-article/Vector.svg') no-repeat;
+    background: url('../images/main/content-article/Vector.svg') no-repeat;
     right: 0;
   }
   &::before {
@@ -910,7 +910,7 @@ a {
     position: absolute;
     width: 1440px;
     height: 80px;
-    background: url('/images/main/content-article/Vector-1.svg') no-repeat;
+    background: url('../images/main/content-article/Vector-1.svg') no-repeat;
     bottom: -107px;
   }
   @media screen and (max-width: 1025px) {
@@ -1138,7 +1138,7 @@ a {
   padding-left: 24px;
   &::before{
     content: "";
-    background-image: url('/images/main/content-article/disk.svg');
+    background-image: url('../images/main/content-article/disk.svg');
     width: 24px;
     height: 24px;
     position: absolute;
@@ -1147,7 +1147,7 @@ a {
 }
 .card-present {
   background: #2963A3;
-  background: url('/images/main/content-article/present.svg') no-repeat #2963A3;
+  background: url('../images/main/content-article/present.svg') no-repeat #2963A3;
   background-position: bottom;
   background-size: 100%;
   height: 292px;
@@ -1158,7 +1158,7 @@ a {
   @media screen and (max-width: 769px) {
     margin-top: 0;
     width: 356px;
-    background: url('/images/main/content-article/cardPresent.svg') no-repeat #2963A3;
+    background: url('../images/main/content-article/cardPresent.svg') no-repeat #2963A3;
     background-size: 100%;
     background-position: bottom;
     height: 248px;
@@ -1190,7 +1190,7 @@ a {
   &::after {
     content: '';
     position: absolute;
-    background: url('/images/main/content-article/bonus.svg') no-repeat;
+    background: url('../images/main/content-article/bonus.svg') no-repeat;
     width: 110px;
     height: 82px;
     bottom: 0;
@@ -1201,7 +1201,7 @@ a {
       right: 17px;
       border-radius: 0;
       width: 166px;
-      background: url('/images/main/content-article/cardBonus.svg') no-repeat;
+      background: url('../images/main/content-article/cardBonus.svg') no-repeat;
     }
   }
   @media screen and (max-width: 1025px) {
