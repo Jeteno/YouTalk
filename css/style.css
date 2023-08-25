@@ -162,6 +162,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   color: #03B2A5;
+  cursor: pointer;
 }
 @media screen and (max-width: 1025px) {
   .header__button_btn {
@@ -270,6 +271,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 .blog__filter-button:not(:last-child) {
   margin-right: 8px;
@@ -489,6 +491,7 @@ a {
   height: 48px;
   background: #35B3A9;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .blog__button-link {
